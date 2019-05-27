@@ -1,0 +1,14 @@
+## Mybatis的理解
+### 配置
+#### mybatis-config.xml
+- 配置数据库链接
+- pojo别名
+- mapper资源路径
+#### Cate.xml
+- 查询语句和映射pojo
+### 流程
+- 应用程序向mybatis请求数据
+- mybatis根据mybatis-config.xml加载数据库配置
+- mybatis根据Cate.xml加载查询语句
+- mybatis创建session
+- 根据传入mapper的id返回数据
